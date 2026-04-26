@@ -6,7 +6,7 @@ void main() {
     funcionario.setNome("Pão");
     funcionario.setSalariobase(900d);
 
-    System.out.println("funcionario1:"+"\n"+funcionario.getNome()+"\n"+funcionario.getCpf()+"\n"+funcionario.calcularSalarioTotal()+"\n");
+    System.out.println("funcionario1: "+"\n"+"nome: "+funcionario.getNome()+"\n"+"CPF: "+funcionario.getCpf()+"\n"+"Salario: "+funcionario.calcularSalarioTotal()+"\n");
 
 
 
@@ -16,7 +16,7 @@ void main() {
     funcionario2.setNome("Pãozinho");
     funcionario2.setSalariobase(500d);
 
-    System.out.println("funcionario2:"+"\n"+funcionario2.getNome()+"\n"+funcionario2.getCpf()+"\n"+funcionario2.calcularSalarioTotal()+"\n");
+    System.out.println("funcionario2: "+"\n"+"nome: "+funcionario2.getNome()+"\n"+"CPF: "+funcionario2.getCpf()+"\n"+"Salario: "+funcionario2.calcularSalarioTotal()+"\n");
 
 
     Funcionario funcionario3=new Funcionario();
@@ -25,7 +25,7 @@ void main() {
     funcionario3.setNome("Fances");
     funcionario3.setSalariobase(500d);
 
-    System.out.println("funcionario3:"+"\n"+funcionario3.getNome()+"\n"+funcionario3.getCpf()+"\n"+funcionario3.calcularSalarioTotal()+"\n");
+    System.out.println("funcionario3:"+"\n"+"nome: "+funcionario3.getNome()+"\n"+"CPF: "+funcionario3.getCpf()+"\n"+"Salario total: "+funcionario3.calcularSalarioTotal()+"\n");
 
     Gerente gerente= new Gerente();
 
@@ -36,7 +36,7 @@ void main() {
     gerente.setSalariobase(1800d);
 
 
-    System.out.println("Primeiro Gerente:"+"\n"+gerente.getNome()+"\n"+gerente.getCpf()+"\n"+gerente.getDepartamento()+"\n"+gerente.getBonificacao()+"\n"+gerente.calcularSalarioTotal()+"\n");
+    System.out.println("Primeiro Gerente: "+"\n"+"nome: "+gerente.getNome()+"\n"+"CPF: "+gerente.getCpf()+"\n"+"Departamento: "+gerente.getDepartamento()+"\n"+"Bonificação: "+gerente.getBonificacao()+"\n"+"salario total: "+gerente.calcularSalarioTotal()+"\n");
 
     Gerente gerente2= new Gerente();
 
@@ -46,7 +46,7 @@ void main() {
     gerente2.setBonificacao(0.78d);
     gerente2.setSalariobase(1100d);
 
-    System.out.println("segundo gerente:"+"\n"+gerente2.getNome()+"\n"+gerente2.getCpf()+"\n"+gerente2.getDepartamento()+"\n"+gerente2.getBonificacao()+"\n"+gerente2.calcularSalarioTotal()+"\n");
+    System.out.println("segundo gerente: "+"\n"+"nome: "+gerente2.getNome()+"\n"+"CPF: "+gerente2.getCpf()+"\n"+"Departamento: "+gerente2.getDepartamento()+"\n"+"Bonificação: "+gerente2.getBonificacao()+"\n"+"Calcular salario: "+gerente2.calcularSalarioTotal()+"\n");
 
     Desenvolvedor desenvolvedor =new Desenvolvedor();
 
@@ -56,6 +56,6 @@ void main() {
     desenvolvedor.setBonusporprojeto(400);
     desenvolvedor.setLinguagemprincipal("java, PHP e C#");
 
-    System.out.println("Desenvolvedor:"+"\n"+desenvolvedor.getNome()+"\n"+desenvolvedor.getCpf()+"\n"+desenvolvedor.getLinguagemprincipal()+"\n"+desenvolvedor.getBonusporprojeto()+"\n"+gerente.calcularSalarioTotal()+"\n");
+    System.out.println("Desenvolvedor: "+"\n"+"nome: "+desenvolvedor.getNome()+"\n"+"CPF: "+desenvolvedor.getCpf()+"\n"+"Linguagem: "+desenvolvedor.getLinguagemprincipal()+"\n"+"Bonuns por projeto: "+desenvolvedor.getBonusporprojeto()+"\n"+"Calcular salario: "+gerente.calcularSalarioTotal()+"\n");
 
 }
